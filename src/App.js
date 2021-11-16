@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { NavBar,MovieList } from './components';
+import { useState } from "react";
+import axios from 'axios';
+
+const API_BASE_URL = "https://www.omdbapi.com";
 
 function App() {
+  const [inpValue, setInpValue] = useState("");
+  const [movies, setMovies] = useState([]);
+
+
+  const search = async (e) => {
+    if(e.code === "Enter") {
+      const response = await axios.get(API_BASE_URL + "/?s=" + inpValue + "&apikey=aa660442");
+      setMovies(response.data.Search);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <NavBar inpValue = {inpValue} setInpValue = {setInpValue} search = {search} className="navbar"/>
+      {/*<MovieList className="movie-list"/>*/}
+      <MovieList movielist = {movies}/>
     </div>
   );
 }

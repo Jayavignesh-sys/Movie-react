@@ -1,0 +1,10 @@
+.movie_det {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: auto;
+    width: 50px;
+}
+
+.Title{
+    word-wrap: break-word;
+}
