@@ -4,4 +4,10 @@
     overflow: auto;
     padding-top: 2rem;
     width: 50px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.Text{
+    font-weight: bold;
 }

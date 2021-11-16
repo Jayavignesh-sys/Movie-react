@@ -1,8 +1,9 @@
 .movie-card{
     width: 350px;
-    height: 650px;
+    height: 725px;
     margin: 10px;
-    background-color: #f8f9fa;
+    background-color: #181A1B;
+    color: #A8A095;
 }
 
 .Alli {
@@ -19,12 +20,13 @@
     padding-bottom: 1.2rem;
     background-color: #EDEDE7;
     border: 1px solid #593723;
-    -moz-box-shadow: 0 10px 0 0 #593723, 0 5px 5px 2px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 0 10px 0 0 #593723, 0 10px 15px 2px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 5px 0 0 #593723, 0 10px 15px 2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 10px 0 0 #593723, 0 7px 10px 5px #797a76;
+    -webkit-box-shadow: 0 10px 0 0 #593723, 0 7px 10px 5px #797a76;
+    box-shadow: 0 5px 0 0 #593723, 0 7px 10px 5px #797a76;
     color: #593723;
     display: block;
-    padding: 25px;
+    padding: 4px;
+    width: 350px;
     top: 0;
     text-decoration: none;
     align-content: center;

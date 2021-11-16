@@ -5,10 +5,10 @@ import MovieDet from './MovieDet'
 
 export default function MovieCard({movie,movie_id,setMovie_id,getMovieDet,movie_det}) {
     function changeBack(e) {
-        e.target.style.background = 'red';
+        e.target.style.background = '#a1c837 ';
     }
     function Original(e) {
-        e.target.style.background = 'white';
+        e.target.style.background = '';
     }
     return (
         <a
@@ -23,6 +23,7 @@ export default function MovieCard({movie,movie_id,setMovie_id,getMovieDet,movie_
                 <br />
                 <p className="Alli">{movie.Title}</p>
                 <p className="Alli">{movie.Year}</p>
+                <br />
                 {movie_id === movie.imdbID && <MovieDet movie_det={movie_det} />}
             </div>
         </a>
