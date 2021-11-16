@@ -1,5 +1,6 @@
 .movie-list {
-    padding-left: 2rem;
+    padding-left: 6rem;
+    padding-top: 6rem;
     display: flex;
     flex-wrap: wrap;
 }

@@ -1,5 +1,46 @@
-div{
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    margin-bottom: 2rem;
+.movie-card{
+    width: 350px;
+    height: 650px;
+    margin: 10px;
+    background-color: #f8f9fa;
+}
+
+.Alli {
+    text-shadow: 4px 0px 4px #00000071;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.Image{
+    padding-left: 1.6rem;
+    padding-top: 1.2rem;
+    padding-right: 1.55rem;
+    padding-bottom: 1.2rem;
+    background-color: #EDEDE7;
+    border: 1px solid #593723;
+    -moz-box-shadow: 0 10px 0 0 #593723, 0 5px 5px 2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 10px 0 0 #593723, 0 10px 15px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 5px 0 0 #593723, 0 10px 15px 2px rgba(0, 0, 0, 0.8);
+    color: #593723;
+    display: block;
+    padding: 25px;
+    top: 0;
+    text-decoration: none;
+    align-content: center;
+}
+
+.Image:hover, .Image:focus {
+    -moz-box-shadow: 0 2px 0 0 #593723, 0 2px 2px 1px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 2px 0 0 #593723, 0 2px 2px 1px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 0 0 #593723, 0 2px 2px 1px rgba(0, 0, 0, 0.8);
+    top: 8px;
+}
+
+.Image:active {
+    -moz-box-shadow: inset 0 2px 2px 1px #593723, 0 0 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 2px 2px 1px #593723, 0 0 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 2px 1px #593723, 0 0 0 0 rgba(0, 0, 0, 0.1);
+    top: 10px;
+    align-self: center;
 }

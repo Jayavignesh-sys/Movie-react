@@ -2,9 +2,6 @@
     display: flex;
     flex-flow: row wrap;
     overflow: auto;
+    padding-top: 2rem;
     width: 50px;
-}
-
-.Title{
-    word-wrap: break-word;
 }
